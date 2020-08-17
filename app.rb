@@ -24,5 +24,5 @@ post '/Visit' do
 	@datetime = params[:datetime]
 	@barber = params[:barber]
 
-	erb "Отлично! #{@username}, Вы записаны на стрижку! #{@phone}, #{@datetime}, #{@barber}"
+	erb "Отлично! #{@username}, Вы записаны на стрижку! Ваш телефон: #{@phone}, дата и время: #{@datetime}, барбер: #{@barber}"
 end
